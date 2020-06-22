@@ -24,6 +24,7 @@ public class Rectangle {
     private void setUserInput(){
         Scanner sc = new Scanner(System.in);                        // Create a Scanner object
 
+        // Code herhaling, gaat er een belletje rinkelen?
         System.out.println("Enter a width for the Rectangle");      // Prompt the user to enter String
         String userWidth = sc.nextLine();                           // Read user input
         this.width = Double.parseDouble((userWidth));
